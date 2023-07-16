@@ -36,25 +36,3 @@ public class Main {
 
     }
 }
-
-
-
-
-    /*int age = 30;
-    int minAgeToDrink = 18;
-    int retirementAge = 65;
-
-    double currentMoneyInPocketEuro = 20.5;
-    double priceOfDrinkEuro = 4.50;
-
-    boolean canAffordDrink = currentMoneyInPocketEuro > priceOfDrinkEuro;
-    boolean isOldEnoughToDrink = age > minAgeToDrink;
-    boolean isRetired= age >= retirementAge;
-
-
-        if (isOldEnoughToDrink || isRetired) {
-                System.out.println("you can drink");
-
-                } else {
-                System.out.println("you can't drink");
-                }*/
