@@ -4,9 +4,11 @@ public class Main {
        // Boolean algebra operations
           //2 <= 2 && !true
           /* 2 non è maggiore di 2 ma è uguale
-          e !true equivale a false usando l'operatore logico end &&
-          andremo a verificare se tutti e due saranno true se risulteranno true
-          allora sarà true se uno di loro risulterà false allora sarà false
+          e !true equivale a false usando 
+          l'operatore logico not inverte il valore, usando l'operatore logico end &&
+          andremo a verificare se tutti e due saranno true se entrambi risulteranno true
+          allora sarà true se uno di loro risulterà false allora sarà false perchè con l'operatore end tutti e due devono essere true
+          per risultare true
           result : false*/
           int num1 = 2;
           int num2 = 2;
@@ -17,8 +19,8 @@ public class Main {
 
 
         //!false && 3 > 2
-        /* !false equivale a true e 3 è maggiore di 2 quindi tutti e due risulteranno true
-        quindi il risultato finale sarà true*/
+        /* !false equivale a true usando l'operatore not logic ! che inverte il valore e 3 è maggiore di 2 quindi tutti e due risulteranno true
+        il risultato finale sarà true*/
         boolean bool2 = !false;
         int num3 = 3;
         int num4 = 2;
@@ -28,9 +30,9 @@ public class Main {
         System.out.println(result2);
 
 
-        /* !t questo nega il valore di t, che è false. Quindi !t diventerà true.
-        !(!t || f)  qui, abbiamo un || operatore OR ( ) tra !t ed f. Poiché !t è true, !t || f restituisce true perché almeno uno degli operandi è true.
-        Infine, neghiamo il valore dell'utilizzo !(!t || f)dell'operatore !. Dal momento !(!t || f)che è true, negandolo ci darà false.
+        /* !t questo nega il valore di t, che è false (operatore not logic !). Quindi !t diventerà true.
+        !(!t || f)  qui, abbiamo un || operatore OR || tra !t ed f. Poiché !t è true, !t || f restituisce true perché almeno uno degli operandi è true.
+        Infine, neghiamo il valore dell'utilizzo !(!t || f )dell'operatore not !. Dal momento not !(!t || f)che è true, negandolo ci darà false.
         quindi il risultato sarà false*/
         boolean t = false;
         boolean f = true;
